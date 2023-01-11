@@ -1,5 +1,3 @@
-
-
 const header = document.querySelector('.navbar');
 
 window.onscroll = function() {
