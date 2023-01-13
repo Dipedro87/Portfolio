@@ -12,4 +12,3 @@ window.onscroll = function() {
     }
 }
 
-const button = document.querySelector(".btn");
