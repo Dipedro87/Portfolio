@@ -1,3 +1,5 @@
+// add classe na barra de navegação
+
 const header = document.querySelector('.navbar');
 
 window.onscroll = function() {
@@ -5,7 +7,9 @@ window.onscroll = function() {
     if(top >=100) {
         header.classList.add('navbarDark');
     } 
-     else {
+    else {
         header.classList.remove('navbarDark');
     }
 }
+
+const button = document.querySelector(".btn");
