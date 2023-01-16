@@ -54,14 +54,13 @@
     border: 1px solid #008000;
 }
 
-/* menu de tecnologias */
-
+/* CSS de tecnologias */
 
 
 
 /* Background */
 .navbarScroll.navbarDark {
-    background-color: #00000063;
+    background-color: #808080;
 }
 
 /* estilo midias sociais */
@@ -82,7 +81,7 @@
 }
 
 /* espaçamento entre seções */
-#about, #services, #portfolio, #clients, #contact {
+#about, #services, #portfolio, #clients, #contact, #technology {
     margin-top: 2rem;
     padding-top: 2rem;
 }
