@@ -1,7 +1,6 @@
 /* Imagem Background */
-
 .bgimage {
-    height: 70vh;
+    height: 60vh;
     background: url(imgs/dados.jpg);
     background-size: cover;
     position: relative;
@@ -22,7 +21,7 @@
     position: absolute;
     top: 50%;
     transform: translate (-50%, 50%);
-    color: white;
+    color: #ffffff;
 }
 
 /* Sobre Mim */
@@ -54,14 +53,12 @@
     border: 1px solid #008000;
 }
 
-/* CSS de tecnologias */
-
-
-
 /* Background */
 .navbarScroll.navbarDark {
     background-color: #808080;
 }
+
+
 
 /* estilo midias sociais */
 .social-icons {
@@ -81,9 +78,11 @@
 }
 
 /* espaçamento entre seções */
-#about, #services, #portfolio, #clients, #contact, #technology {
+#about, #services, #portfolio, #clients, #contact {
     margin-top: 2rem;
     padding-top: 2rem;
+    overflow: hidden;  /* usado para exlcuir a barra horizontal */
+    
 }
 #contact {
     padding-bottom: 2rem;
