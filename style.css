@@ -1,7 +1,7 @@
 /* Imagem Background */
 .bgimage {
     height: 60vh;
-    background: url(imgs/dados.jpg);
+    background: url(imgs/dados2.jpg);
     background-size: cover;
     position: relative;
 }
@@ -25,8 +25,8 @@
 }
 
 /* Sobre Mim */
-.imageAboutPage {
-    width: 70%;
+.imagePfp {
+    width: 50%;
 }
 
 /*Serviços */
@@ -58,8 +58,6 @@
     background-color: #808080;
 }
 
-
-
 /* estilo midias sociais */
 .social-icons {
     font-size: 36px;
@@ -78,12 +76,56 @@
 }
 
 /* espaçamento entre seções */
-#about, #services, #portfolio, #clients, #contact {
+#about, #services, #portfolio, #clients, #location {
     margin-top: 2rem;
     padding-top: 2rem;
     overflow: hidden;  /* usado para exlcuir a barra horizontal */
     
 }
-#contact {
+
+/*localização*/
+#location {
     padding-bottom: 2rem;
 }
+
+/*botão flutuante*/
+.float-form-container {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+}
+
+.float-form-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.float-form {
+    display: none;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.float-form input[type=text], .float-form input[type=email], .float-form input[type=text], .float-form input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.float-form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
